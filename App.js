@@ -1,13 +1,16 @@
 import './App.css';
-import Calendar from 'react-calendar'
-import 'react-calendar/dist/Calendar.css';
+import { DatePicker, Space } from 'antd';
+/*import Calendar from 'react-calendar'
+import 'react-calendar/dist/Calendar.css';*/
 import navBtnImg from './img/img--header/free-icon-globe-558593.png.svg';
-import navBtnImg2 from './img/img--header/free-icon-more-information-2740648.png.svg';;
-
+import navBtnImg2 from './img/img--header/free-icon-more-information-2740648.png.svg';
+import search from './img/free-icon-search-4024513_2.png.svg';
+import React from 'react';
 
 function App() {
 
-    const [value, onChange] = useState(new Date());
+  const { RangePicker } = DatePicker;
+    /*const [value, onChange] = useState(new Date());*/
 
   return (
     <header class="header backWave">
@@ -39,10 +42,18 @@ function App() {
                                 <option>Санкт-Питербург</option>
                                 <option>Новосибирск</option>
                     </select></div>
-                <div class="filter--blockInput"><Calendar onChange={onChange} value={value} class="filterInput" type="text" placeholder="Когда"/></div>
-                <div class="filter--blockInput"><Calendar onChange={onChange} value={value} class="filterInput" type="text" placeholder="Обратно"/></div>
-                <div class="filter--blockInput"><input class="filterInput" type="text" placeholder="Пассажиры и класс"/></div>
-                <div class="filter--blockInput filter--button"><button class="filterBtn">Найти билеты</button></div>
+                <div class="filter--blockInput"><Space direction="vertical" size={12}>
+                                                  <RangePicker className='calendar' />
+                                                </Space>
+                </div>
+                <div class="filter--blockInput"><select class="filterInput" type="text" placeholder="Пассажиры и класс">
+                                <option>Челябинск</option>
+                                <option>Москва</option>
+                                <option>Краснодар</option>
+                                <option>Санкт-Питербург</option>
+                                <option>Новосибирск</option>
+                </select></div>
+                <div class="filter--blockInput filter--button"><button class="filterBtn"><img src={search} alt='#' /></button></div>
             </div>
             <div class="filter--blockInput filter--button"><button class="dopFlBtn">Составить сложный маршрут</button></div>
         </div>
