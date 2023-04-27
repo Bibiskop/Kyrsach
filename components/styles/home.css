@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+*
+{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body
+{
+    width: 1920px;
+    overflow-x: hidden;
+}
+button
+{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.backWave
+{
+    background: url(/src/components/img/img--back/1627190118_13-kartinkin-com-p-serii-fon-volni-krasivo-13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header
+{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #299986;
+    height: 100vh;
+}
+.header--logoNav
+{
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #83dae9;
+    border-radius: 0 0 50px 50px;
+}
+.logo--block
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.navigation
+{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navBtn, .logo, .dopBtn
+{
+    color: rgb(0, 0, 0);
+}
+.navBtn
+{
+    font-size: 1.5em;
+    font-weight: 600;
+    background-color: #83dae9;
+}
+.logo
+{
+    font-size: 4em;
+    background-color: #83dae9;
+}
+.tabs--btn
+{
+    padding: 5px;
+    font-size: 1em;
+}
+.title--info
+{
+    color: white;
+    font-size: 2.3em;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.filterBtn
+{
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color: #ca2f1b;
+    color: #ffffff;
+    font-size: 2em;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 600;
+    height: 76px;
+    width: 50px;
+    cursor: pointer;
+}
+.header--filter
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-bottom: 25px;
+}
+.filter--input
+{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-bottom: 25px;
+}
+.filterInput
+{
+    width: 310px;
+    height: 76px;
+    font-size: 2em;
+    border-radius: 9px;
+    outline: none;
+    padding: 5px;
+}
+.filterInput:hover
+{
+
+    border: rgb(45, 154, 255) solid 1px;
+}
+.header--title
+{
+    padding: 100px;
+}
+.filter--blockInput
+{
+    padding: 5px;
+}
+.dopFlBtn
+{
+    border: none;
+    outline: none;
+    background-color: #ca2f1b;
+    color: #ffffff;
+    font-size: 2em;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 600;
+    width: 500px;
+    cursor: pointer;
+}
+.filterBtn:hover, .dopFlBtn:hover
+{
+    color: #ca2f1b;
+    background-color: white;
+}
+.calendar
+{
+    height: 76px;
+    width: 310px;
+}
