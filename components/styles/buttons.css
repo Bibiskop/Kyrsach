@@ -9,11 +9,17 @@
     cursor: pointer;
 }
 
-.navBtn, .logo, .filterBtn, .dopFlBtn
+.navBtn, .filterBtn, .dopFlBtn
 {
     border: none;
     outline: none;
     cursor: pointer;
+    opacity: 0.8;
+}
+
+.navBtn:hover, .logo:hover, .filterBtn:hover, .dopFlBtn:hover
+{
+    opacity: 2;
 }
 
 .filterBtn, .dopFlBtn
@@ -35,6 +41,9 @@
 
 .logo
 {
+    border: none;
+    outline: none;
+    cursor: pointer;
     font-size: 4em;
 }
 
@@ -55,13 +64,6 @@
 {
     width: 500px;
 }
-
-.filterBtn:hover, .dopFlBtn:hover
-{
-    color: #ca2f1b;
-    background-color: white;
-}
-
 /* Sign */
 
 .btn--a, .SignIn--SignUp

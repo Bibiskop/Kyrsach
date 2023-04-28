@@ -1,44 +1,31 @@
+/* Main */
+
+.title--info
+{
+    color: white;
+    font-size: 2.3em;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
 /* Sign */
 
-.overlay-right 
+.headline--sign
 {
-    right: 0;
-    transform: translateY(0);
+    font-weight: bold;
+    margin: 0;
 }
 
-.overlay-left 
+.sign--dopText
 {
-    transform: translateY(-20%);
+    font-size: 12px;
 }
 
-.container.right-panel-active .sign-in-container 
+.sign--text
 {
-    transform: translateY(100%);
-}
-
-.container.right-panel-active .overlay-container 
-{
-    transform: translateX(-100%);
-}
-
-.container.right-panel-active .sign-up-container 
-{
-    transform: translateX(100%);
-    opacity: 1;
-    z-index: 5;
-}
-
-.container.right-panel-active .overlay 
-{
-    transform: translateX(50%);
-}
-
-.container.right-panel-active .overlay-left 
-{
-    transform: translateY(0);
-}
-
-.container.right-panel-active .overlay-right 
-{
-    transform: translateY(20%);
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: .5px;
+    margin: 20px 0 30px;
 }

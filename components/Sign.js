@@ -2,9 +2,8 @@ import './styles/background.css';
 import './styles/buttons.css';
 import './styles/flexbox.css';
 import './styles/inputs.css';
-import './styles/text.css';
 import './styles/animation_sign.css';
-import navBtnImg from './img/img--header/free-icon-globe-558593.png.svg';
+import './styles/text.css';
 import React from 'react';
 import {useNavigate} from "react-router-dom"
 
@@ -28,7 +27,6 @@ const Sign = () => {
               <div className="navigation">
                   <div className="navigation--btn"><button onClick={()=>navigate("/components/Sign")} className="navBtn">Sign in</button></div>
                   <div className="navigation--btn"><button onClick={()=>navigate("/components/Sign")} className="navBtn">Sign up</button></div>
-                  <div className="navigation--btn"><img src={navBtnImg} alt="#" /></div>
               </div>
           </div>
             <div className="container--sign flex--sign" id="container">

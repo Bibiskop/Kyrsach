@@ -4,22 +4,26 @@
 {
     width: 310px;
     height: 76px;
-    font-size: 2em;
+    font-size: 2vh;
     border-radius: 9px;
     outline: none;
     padding: 5px;
+    background-color: rgb(187, 187, 187);
+    color: rgb(143, 143, 143);
+    border: rgb(45, 154, 255) solid 1px;
 }
 
-.filterInput:hover
+.filterInput:enabled
 {
-
-    border: rgb(45, 154, 255) solid 1px;
+    color: black;
 }
 
 .calendar
 {
+    background-color: rgb(187, 187, 187);
     height: 76px;
     width: 310px;
+    border: rgb(45, 154, 255) solid 1px;
 }
 
 /* Sign */
