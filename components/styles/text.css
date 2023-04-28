@@ -1,0 +1,31 @@
+/* Main */
+
+.title--info
+{
+    color: white;
+    font-size: 2.3em;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+/* Sign */
+
+.headline--sign
+{
+    font-weight: bold;
+    margin: 0;
+}
+
+.sign--dopText
+{
+    font-size: 12px;
+}
+
+.sign--text
+{
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: .5px;
+    margin: 20px 0 30px;
+}

@@ -1,0 +1,35 @@
+/* Main */
+
+.filterInput
+{
+    width: 310px;
+    height: 76px;
+    font-size: 2em;
+    border-radius: 9px;
+    outline: none;
+    padding: 5px;
+}
+
+.filterInput:hover
+{
+
+    border: rgb(45, 154, 255) solid 1px;
+}
+
+.calendar
+{
+    height: 76px;
+    width: 310px;
+}
+
+/* Sign */
+
+.form-container input 
+{
+    background: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+}
+

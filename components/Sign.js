@@ -1,4 +1,9 @@
-
+import './styles/background.css';
+import './styles/buttons.css';
+import './styles/flexbox.css';
+import './styles/inputs.css';
+import './styles/text.css';
+import './styles/animation_sign.css';
 import navBtnImg from './img/img--header/free-icon-globe-558593.png.svg';
 import React from 'react';
 import {useNavigate} from "react-router-dom"
@@ -26,47 +31,47 @@ const Sign = () => {
                   <div className="navigation--btn"><img src={navBtnImg} alt="#" /></div>
               </div>
           </div>
-            <div className="container" id="container">
+            <div className="container--sign flex--sign" id="container">
                 <div className="form-container sign-up-container">
                     <form action="#">
-                        <h1>Create Account</h1>
+                        <h1 className='headline--sign'>Create Account</h1>
                         <div className="social-container">
                             <button className="social btn--a"><i className="fab fa-facebook-f"></i></button>
                             <button className="social btn--a"><i className="fab fa-google-plus-g"></i></button>
                             <button className="social btn--a"><i className="fab fa-linkedin-in"></i></button>
                         </div>
-                        <span>or use your email for registration</span>
+                        <span className='sign--dopText'>or use your email for registration</span>
                         <input type="text" placeholder="Name" />
                         <input type="email" placeholder="Email" />
                         <input type="password" placeholder="Password" />
-                        <button>Sign Up</button>
+                        <button className='SignIn--SignUp'>Sign Up</button>
                     </form>
                 </div>
                 <div className="form-container sign-in-container">
                     <form action="#">
-                        <h1>Sign in</h1>
+                        <h1 className='headline--sign'>Sign in</h1>
                         <div className="social-container">
                             <button className="social btn--a"><i className="fab fa-facebook-f"></i></button>
                             <button className="social btn--a"><i className="fab fa-google-plus-g"></i></button>
                             <button className="social btn--a"><i className="fab fa-linkedin-in"></i></button>
                         </div>
-                        <span>or use your account</span>
+                        <span className='sign--dopText'>or use your account</span>
                         <input type="email" placeholder="Email" />
                         <input type="password" placeholder="Password" />
                         <button className='btn--a'>Forgot your password?</button>
-                        <button>Sign In</button>
+                        <button className='SignIn--SignUp'>Sign In</button>
                     </form>
                 </div>
                 <div className="overlay-container">
                     <div claclassNamess="overlay">
                         <div className="overlay-panel overlay-left">
-                            <h1>Welcome Back!</h1>
-                            <p>To keep connected with us please login with your personal info</p>
+                            <h1 className='headline--sign'>Welcome Back!</h1>
+                            <p className='sign--text'>To keep connected with us please login with your personal info</p>
                             <button className="ghost" id="signIn">Sign In</button>
                         </div>
                         <div className="overlay-panel overlay-right">
-                            <h1>Welcome Back!</h1>
-                            <p>To keep connected with us please login with your personal info</p>
+                            <h1 className='headline--sign'>Welcome Back!</h1>
+                            <p className='sign--text'>To keep connected with us please login with your personal info</p>
                             <button className="ghost" id="signUp">Sign Up</button>
                         </div>
                     </div>

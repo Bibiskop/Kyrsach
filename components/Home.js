@@ -1,4 +1,8 @@
-import './styles/home.css';
+import './styles/background.css';
+import './styles/buttons.css';
+import './styles/flexbox.css';
+import './styles/inputs.css';
+import './styles/text.css';
 import navBtnImg from './img/img--header/free-icon-globe-558593.png.svg';
 import search from './img/free-icon-search-4024513_2.png.svg';
 import React from 'react';

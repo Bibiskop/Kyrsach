@@ -1,0 +1,92 @@
+/* Main */
+
+.header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header--logoNav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.logo--block
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.navigation
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header--filter
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.header--filter
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.filter--input
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.flex--sign
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sign */
+
+.form-container form 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.social-container a 
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-panel 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

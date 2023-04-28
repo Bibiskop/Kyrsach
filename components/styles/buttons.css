@@ -1,0 +1,109 @@
+/* Main */
+
+.navBtn, .logo
+{
+    color: rgb(0, 0, 0);
+    background-color: #83dae9;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.navBtn, .logo, .filterBtn, .dopFlBtn
+{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.filterBtn, .dopFlBtn
+{
+    background-color: #ca2f1b;
+    color: #ffffff;
+    font-size: 2em;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.navBtn
+{
+    font-size: 1.5em;
+    font-weight: 600;
+    background-color: #83dae9;
+}
+
+.logo
+{
+    font-size: 4em;
+}
+
+.tabs--btn
+{
+    padding: 5px;
+    font-size: 1em;
+}
+
+.filterBtn
+{
+    text-align: center;
+    height: 76px;
+    width: 50px;
+}
+
+.dopFlBtn
+{
+    width: 500px;
+}
+
+.filterBtn:hover, .dopFlBtn:hover
+{
+    color: #ca2f1b;
+    background-color: white;
+}
+
+/* Sign */
+
+.btn--a, .SignIn--SignUp
+{
+    border-radius: 20px;
+    border: 1px solid #299986;
+    background: #299986;
+    cursor: pointer;
+}
+
+.btn--a 
+{
+    color: #333;
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+.SignIn--SignUp
+{
+    border: 1px solid #299986;
+    background: #299986;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+.SignIn--SignUp:active , .btn--a:active
+{
+    transform: scale(.95);
+}
+
+.SignIn--SignUp:focus, .btn--a:focus 
+{
+    outline: none;
+}
+
+.ghost
+{
+    background: transparent;
+    border-color: #fff;
+}
